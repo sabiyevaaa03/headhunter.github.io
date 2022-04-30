@@ -1,0 +1,206 @@
+.callings{
+    position: absolute;
+    margin: 30px 0 0 440px;
+    width: 830px;
+}
+.block_for_calls{
+    position: absolute;
+    width: 550px;
+    height: 340px;
+    background: #ffffff;
+    box-shadow: 0 0 3px #c5c5c5;
+    padding: 30px 0;
+    border-radius: 5px;
+}
+
+.aside_calls{
+    left: 80px;
+    position: absolute;
+    margin: 15px 0 0 -50px;
+    list-style-type: none;
+    color: #000000;
+}
+.paragr{
+    font-size: 17px;
+    font-family: "Calibri";
+    width: 400px;
+    left: 0px;
+    padding-left: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+.aside_calls a li{
+    padding-top: 20px;
+    padding-left: 25px;
+    width: 400px;
+    height: 30px;
+    font-family: "Calibri";
+    color: #000000;
+}
+.aside_calls a li:hover{
+    background: #eeeeee;
+}
+
+.create_call{
+    position: absolute;
+    background: red;
+    height: 40px;
+    width: 226px;
+    border-radius: 7px;
+    top: 310px;
+    left: 162px;
+    padding-bottom: 9px;
+    font-family: "Calibri";
+    cursor: pointer;
+}
+.create_call1{
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+}
+.block_for_calls_friends{
+    position: absolute;
+    top: 410px;
+    box-shadow: 0 0 3px #c5c5c5;
+    border-radius: 5px;
+    width: 550px;
+    height: 150px;
+    background: white;
+    padding: 10px 8px 10px 8px;
+}
+
+.block_for_calls_friends a{
+    color: #5181b8;
+    font-family: "Calibri";
+}
+.block_for_calls_friends a i{
+    margin-left: 17px;
+    margin-right: 8px;
+    color: #5181b8;
+}
+.block_for_friends{
+    position: absolute;
+    top: 510px;
+    box-shadow: 0 0 3px #c5c5c5;
+    padding: 20px;
+    border-radius: 5px;
+    width: 183px;
+    height: 200px;
+    background: white;
+    color: #000;
+}
+.call_to_friends{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Calibri";
+    left: 30px;
+}
+.call_friends{
+    position: absolute;
+    padding: 10px 8px 10px 8px;
+    width: 530px;
+    height: 100px;
+    background: #ffffff;
+    color: #0080ff;
+    font-size: 15px;
+    left: 5px;
+    top: 40px;
+    z-index: 3;
+    text-align: left;
+    margin: 0 auto;
+}
+.call_friend{
+    margin: 10px 8px 10px 15px;
+    padding-bottom: 7px;
+    border-radius: 50%;
+    color: #000;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    cursor: pointer;
+}
+.name_friends{
+    position: absolute;
+    padding: 0px 8px 10px 8px;
+    width: 500px;
+    height: 10px;
+    background: #ffffff;
+    font-size: 15px;
+    left: 40px;
+    top: 125px;
+    z-index: 5;
+}
+.names{
+    padding-bottom: 7px;
+    padding-right: 63px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    width: 20px;
+    height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: justify;
+}
+.block_for_info_calls{
+    position: absolute;
+    left: 565px;
+    box-shadow: 0 0 3px #c5c5c5;
+    padding: 6px 0;
+    border-radius: 5px;
+    width: 230px;
+    height: 141px;
+    background: white;
+}
+.calls{
+    font-size: 15px;
+    font-family: "Calibri";
+    width: 400px;
+    left: 0px;
+    padding-left: 30px;
+    text-align: left;
+    cursor: pointer;
+}
+.name{
+    font-size: 22px;
+    font-family: "Calibri";
+    position: absolute;
+    top: -12px;
+    left: 20px;
+}
+
+.line-5{
+    position: absolute;
+    top: 75px;
+    left: 20px;
+    width: 170px;
+    background: #e0e0e0;
+    height: 0.1px;
+    border: none;
+}
+
+.block_for_adv{
+    position: absolute;
+    left: 565px;
+    top: 170px;
+    box-shadow: 0 0 3px #c5c5c5;
+    padding: 15px;
+    border-radius: 5px;
+    width: 190px;
+    height: 190px;
+    background: white;
+}
+.back{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 20px;
+    font-family: "Calibri";
+    color: red;
+}
+.back:hover{
+    color: #a91414;
+}

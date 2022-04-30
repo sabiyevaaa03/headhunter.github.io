@@ -1,0 +1,68 @@
+.links{
+    list-style-type: none;
+}
+.links a li{
+    color: black;
+}
+.links li:hover{
+    color: red;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    background: #ffffff;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header .strana{
+    margin-left: 120px;
+}
+
+header .strana a{
+    font-size: 17px;
+    font-family: "Calibri";
+    text-decoration: dashed underline;
+    color: #14aef3;
+}
+
+header .strana a:hover{
+    color: #1c1cd5;
+}
+
+header .link{
+    margin-right: 150px;
+}
+
+header .link a{
+    color: #2cacef;
+    position: absolute;
+    top: 10px;
+}
+
+header .link a:hover{
+    color: red;
+}
+
+.button{
+    position: absolute;
+    top: 450px;
+    left:250px;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    background: red;
+    color:white;
+}
+.button:hover{
+    cursor: pointer;
+    background: #880d0d;
+}
